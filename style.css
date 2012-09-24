@@ -1,0 +1,136 @@
+﻿#container
+{
+	width:500px;
+	position:fixed;
+	left:50%;
+	margin-left:-250px;
+	top:50px;
+}
+.message
+{
+	display:block;
+	height:400px;
+	width:80%;
+	padding:10px;	
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top:10px;
+	resize:none;
+}
+#sendname
+{
+	width:80%;
+	padding-left:10px;	
+	margin:0 auto;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+#sendform, #listenform
+{
+	background:#F0F0F0;
+	width:100%;
+	height: auto;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+
+.status
+{
+	color:red;
+	display:none;
+}
+a
+{
+	background:#F0F0F0;	
+	width:80px;	
+	margin:10px;
+	margin-top:20px;		
+	padding:10px;
+	text-decoration:none;	
+	-webkit-border-radius:12px;
+	-moz-webkit-radius:12px;
+	border-radius:12px;
+}
+a:hover
+{
+	background:gray;
+	color:white;
+}
+
+#links
+{
+	margin-top:20px;
+	margin-bottom:40px;	
+	width:100%;
+	text-align:center;
+}
+.logintext
+{
+	display:block;	
+	width:250px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#login
+{	
+	padding:20px;
+	padding-top:10px;
+	width:90%;
+	text-align:center;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	background:#F0F0F0;	
+}
+#welcome
+{
+	padding-bottom:5px;
+	border-bottom:1px black solid;
+	text-align:left;
+	margin-bottom:30px;
+	font-family: 'Buenard', serif;
+	font-size:x-large;
+	width:100%;
+	text-align:center;
+	color:red;
+}
+.error{color:red;display:none;}
+div.centered
+{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:350px !important;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -150px; /*set to a negative number 1/2 of your width*/
+}
+.inputbox
+{
+	background-image:url('images/input_fld.png');
+	background-repeat:no-repeat;
+	display:block;
+	width:275px;
+	height:42px;
+	border:0px black solid;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding-left:10px;
+	margin-left:90px;	
+}
+label{
+	float:left;
+	margin-bottom:10px;
+	margin-left:100px;
+	font-family: 'Buenard', serif;
+}
+.submit
+{
+	
+	background: transparent	url("images/submit_fld.png") no-repeat !important;
+	width:275px !important;
+	height:49px;
+	font-family: 'Buenard', serif;
+	font-size:large;
+}
